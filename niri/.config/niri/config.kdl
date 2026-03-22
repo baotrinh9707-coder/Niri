@@ -363,6 +363,8 @@ binds {
     // Mod-Shift-/, which is usually the same as Mod-?,
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
+    
+    Mod+Return { spawn "kitty"; }
 
    Mod+E { spawn "nautilus"; }
 
